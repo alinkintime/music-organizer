@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.ArrayList;
 
 /**
@@ -124,6 +125,18 @@ public class MusicOrganizer
     {
         if(tracks.size() > 0) {
             player.startPlaying(tracks.get(0).getFilename());
+        }
+    }
+    
+    public void randomPlayAll()
+    {
+        Random rand = new Random();
+        ArrayList<Track> leftToPlay = new ArrayList<Track>(tracks);
+        while(leftToPlay.size() > 0)
+        {
+            int index = rand.nextInt(leftToPlay.size());
+            Track t = leftToPlay.remove(index);
+            player.playSample(t.getFilename());
         }
     }
     
