@@ -8,32 +8,17 @@ comment10.params=
 comment10.target=void\ playFirst()
 comment10.text=\n\ Play\ the\ first\ track\ in\ the\ collection,\ if\ there\ is\ one.\n
 comment11.params=
-<<<<<<< HEAD
-<<<<<<< HEAD
-comment11.target=void\ stopPlaying()
-comment11.text=\n\ Stop\ the\ player.\n
-comment12.params=index
-comment12.target=boolean\ indexValid(int)
-comment12.text=\n\ Determine\ whether\ the\ given\ index\ is\ valid\ for\ the\ collection.\n\ Print\ an\ error\ message\ if\ it\ is\ not.\n\ @param\ index\ The\ index\ to\ be\ checked.\n\ @return\ true\ if\ the\ index\ is\ valid,\ false\ otherwise.\n
-comment13.params=folderName
-comment13.target=void\ readLibrary(java.lang.String)
-=======
 comment11.target=void\ randomPlay()
-=======
-comment11.target=void\ randomPlayAll()
->>>>>>> RandomPlaylist
 comment12.params=
-comment12.target=void\ stopPlaying()
-comment12.text=\n\ Stop\ the\ player.\n
-comment13.params=index
-comment13.target=boolean\ indexValid(int)
-comment13.text=\n\ Determine\ whether\ the\ given\ index\ is\ valid\ for\ the\ collection.\n\ Print\ an\ error\ message\ if\ it\ is\ not.\n\ @param\ index\ The\ index\ to\ be\ checked.\n\ @return\ true\ if\ the\ index\ is\ valid,\ false\ otherwise.\n
-comment14.params=folderName
-comment14.target=void\ readLibrary(java.lang.String)
-<<<<<<< HEAD
->>>>>>> RandomSong
-=======
->>>>>>> RandomPlaylist
+comment12.target=void\ randomPlayAll()
+comment13.params=
+comment13.target=void\ stopPlaying()
+comment13.text=\n\ Stop\ the\ player.\n
+comment14.params=index
+comment14.target=boolean\ indexValid(int)
+comment14.text=\n\ Determine\ whether\ the\ given\ index\ is\ valid\ for\ the\ collection.\n\ Print\ an\ error\ message\ if\ it\ is\ not.\n\ @param\ index\ The\ index\ to\ be\ checked.\n\ @return\ true\ if\ the\ index\ is\ valid,\ false\ otherwise.\n
+comment15.params=folderName
+comment15.target=void\ readLibrary(java.lang.String)
 comment2.params=filename
 comment2.target=void\ addFile(java.lang.String)
 comment2.text=\n\ Add\ a\ track\ file\ to\ the\ collection.\n\ @param\ filename\ The\ file\ name\ of\ the\ track\ to\ be\ added.\n
@@ -58,12 +43,4 @@ comment8.text=\n\ List\ all\ tracks\ by\ the\ given\ artist.\n\ @param\ artist\ 
 comment9.params=index
 comment9.target=void\ removeTrack(int)
 comment9.text=\n\ Remove\ a\ track\ from\ the\ collection.\n\ @param\ index\ The\ index\ of\ the\ track\ to\ be\ removed.\n
-<<<<<<< HEAD
-<<<<<<< HEAD
-numComments=14
-=======
-numComments=15
->>>>>>> RandomSong
-=======
-numComments=15
->>>>>>> RandomPlaylist
+numComments=16

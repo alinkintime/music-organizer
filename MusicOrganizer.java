@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Random;
-=======
 import java.util.Random;
 import java.util.ArrayList;
->>>>>>> RandomPlaylist
 
 /**
  * A class to hold details of audio tracks.
@@ -132,7 +129,7 @@ public class MusicOrganizer
             player.startPlaying(tracks.get(0).getFilename());
         }
     }
-<<<<<<< HEAD
+    
     public void randomPlay()
     {
         if(tracks.size() > 0 )
@@ -142,7 +139,6 @@ public class MusicOrganizer
             playTrack(index);
         }
     }
-=======
     
     public void randomPlayAll()
     {
@@ -156,7 +152,7 @@ public class MusicOrganizer
         }
     }
     
->>>>>>> RandomPlaylist
+
     /**
      * Stop the player.
      */
